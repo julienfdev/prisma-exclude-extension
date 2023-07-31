@@ -1,5 +1,4 @@
 import { Prisma } from "@prisma/client";
-// @ts-nocheck
 
 type Without<T extends Record<string, any>, U> = {
   [P in keyof T]: P extends keyof U ? never : P;

@@ -1,9 +1,12 @@
 {
   "name": "prisma-exclude-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A type-safe exclude extension for prisma 5",
-  "main": "./src/index.ts",
+  "main": "./dist/index.ts",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/julienfdev/prisma-exclude-extension"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cp ./src/index.ts ./dist/index.ts"
