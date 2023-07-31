@@ -1,0 +1,6 @@
+src
+prisma
+node_modules
+.env
+.prettierc
+tsconfig.json

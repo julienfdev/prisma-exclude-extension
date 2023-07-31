@@ -1,0 +1,5 @@
+.env
+dist
+prisma
+node_modules
+.DS_Store

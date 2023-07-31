@@ -1,0 +1,29 @@
+{
+  "name": "prisma-exclude-extension",
+  "version": "1.0.0",
+  "description": "A type-safe exclude extension for prisma 5",
+  "main": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp ./src/index.ts ./dist/index.ts"
+  },
+  "keywords": [
+    "Prisma",
+    "exclude",
+    "omit",
+    "fields",
+    "orm"
+  ],
+  "author": "Julien FERAND",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "prisma": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0"
+  }
+}
